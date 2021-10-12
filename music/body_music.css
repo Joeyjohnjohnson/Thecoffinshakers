@@ -1,5 +1,7 @@
+@media and (min-width:250px)
 #navbar {
-
+    
     overflow: hidden;
     background-color: grey;
+    
 }
