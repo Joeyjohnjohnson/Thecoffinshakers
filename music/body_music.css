@@ -1,7 +1,5 @@
-.gridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
+<<<<<<< HEAD
+
 
 @media screen (min-width:250px)
 
@@ -16,3 +14,21 @@
 }
 
 
+=======
+@media screen and (min-width:500px) 
+{
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+   
+   
+   #navbar {
+   
+       overflow: hidden;
+       background-color: grey;
+       
+   }
+
+} 
+>>>>>>> 2e7c7620e40f071c792b10c170427ebbf1383911

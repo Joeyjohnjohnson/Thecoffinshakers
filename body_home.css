@@ -1,19 +1,76 @@
- @media screen and (min-width:500px) 
- {
+ @media screen and (min-width:500px)
+  
+
+ 
+{  
     img {
         max-width: 100%;
-        height: auto;
+        height: auto; 
     }
     
     
     #navbar {
-    
         overflow: hidden;
-        background-color: grey;
-        
+        background-color: gray;   
     }
 
- } 
+    #news_home_tab {
+        background-color: darkgray;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 0px;
+    }
+    .line_news {
+
+        border-bottom: 2px solid;
+        
+    }
+    
+    .news_new_merch {
+        display: grid;
+        grid-template-columns:auto;
+        gap: 0px;
+        grid-auto-rows: minmax(10px, auto);
+        background-color: darkgray;
+    }
+
+    .news_info_festival {
+        display: grid;
+        grid-template-columns:auto;
+        gap: 0px;
+        grid-auto-rows: minmax(10px, auto);
+        background-color: darkgray;
+    }
+
+    .news_breaking_news {
+        display: grid;
+        grid-template-columns:auto;
+        gap: 0px;
+        grid-auto-rows: minmax(10px, auto);
+        background-color: darkgray;
+    }
+
+    #social_home_tab {
+        background-color: purple;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 0px;
+    }
+
+    #shows_home_tab {
+        background-color: pink;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 0px;
+    }
+
+
+}
+
+
 
 
 
