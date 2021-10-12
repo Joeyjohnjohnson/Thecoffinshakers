@@ -1,7 +1,7 @@
-@media and (min-width:250px)
+@media screen and (min-width:250px)
 #navbar {
     
     overflow: hidden;
-    background-color: grey;
+    background-color:grey;
     
 }
