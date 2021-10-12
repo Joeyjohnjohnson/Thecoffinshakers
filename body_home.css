@@ -1,6 +1,11 @@
+ body {
+     background-image:url("");
+     background-color: black;
+ }
+ 
  @media screen and (min-width:500px)
-  
 
+ 
  
 {  
     img {
@@ -17,16 +22,19 @@
     #news_home_tab {
         background-color: darkgray;
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-column: 1fr,;
+        grid-row:1ft;
         gap: 0px;
+        margin: 6em;
+        padding: 3em;
+        
     }
     .line_news {
 
         border-bottom: 2px solid;
         
     }
-    
+    /*
     .news_new_merch {
         display: grid;
         grid-template-columns:auto;
@@ -50,21 +58,25 @@
         grid-auto-rows: minmax(10px, auto);
         background-color: darkgray;
     }
-
+    */
     #social_home_tab {
-        background-color: purple;
+        background-color: darkgrey;
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-column: 1fr,;
+        grid-row:1ft;
         gap: 0px;
+        margin: 6em;
+        padding: 2em;
     }
 
     #shows_home_tab {
-        background-color: pink;
+        background-color: darkgrey;
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-column: 1fr,;
+        grid-row:1ft;
         gap: 0px;
+        margin: 6em;
+        padding: 2em;
     }
 
 
