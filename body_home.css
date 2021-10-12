@@ -27,6 +27,9 @@
         gap: 0px;
         margin: 6em;
         padding: 3em;
+        border-width: 0.3em;
+        border-style: solid;
+        border-color:grey;
         
     }
     .line_news {
@@ -67,6 +70,9 @@
         gap: 0px;
         margin: 6em;
         padding: 2em;
+        border-width: 0.3em;
+        border-style: solid;
+        border-color:grey;
     }
 
     #shows_home_tab {
@@ -77,6 +83,9 @@
         gap: 0px;
         margin: 6em;
         padding: 2em;
+        border-width: 0.3em;
+        border-style: solid;
+        border-color:grey;
     }
 
 
