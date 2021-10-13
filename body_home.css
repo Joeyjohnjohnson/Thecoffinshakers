@@ -52,14 +52,29 @@
 
     .news_new_merch {
 
-        padding-left:2em;
-        padding-right:2em;
+        padding-left:4em;
+        padding-right:4em;
+    }
+
+    .news_info_festival {
+        padding-left:4em;
+        padding-right:4em;
+
+    }
+
+    .news_breaking_news {
+
+        padding-left:4em;
+        padding-right:4em;
     }
 
     .news_new_merch_picturetext {
         
-            width: 100px;
-            padding-bottom: 1em;
+            
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            padding-left: 4em;
+            padding-right: 4em;
         }
          
 
@@ -111,7 +126,131 @@
 
 
 
+@media screen and (min-width: 767px) and (max-width: 810px)
 
+{  
+    img {
+        max-width: 100%;
+        height: auto; 
+    }
+    
+    .tab_names {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1.5em;
+    }
+
+    #navbar {
+        overflow: hidden;
+        background-color: #292929; 
+        text-align:center;
+        word-spacing:3em;
+        color:#FFFFFF;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+          
+    }
+
+    
+
+    #news_home_tab {
+        background-color: #292929;
+        display: grid;
+        grid-column: 1fr,;
+        grid-row:1ft;
+        gap: 0px;
+        margin: 6em;
+        padding: 1em;
+        padding-top: 0em;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+        
+        
+    }
+
+    .news_new_merch {
+
+        padding-left:4em;
+        padding-right:4em;
+    }
+
+    .news_info_festival {
+        padding-left:4em;
+        padding-right:4em;
+
+    }
+
+    .news_breaking_news {
+
+        padding-left:4em;
+        padding-right:4em;
+    }
+
+    .news_new_merch_picturetext {
+        
+            
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            padding-left: 4em;
+            padding-right: 4em;
+        }
+         
+
+    
+    .line_news {
+
+        border-bottom: 2px solid;
+        
+    }
+    
+    #social_home_tab {
+        background-color: #292929;
+        display: grid;
+        grid-column: 1fr,;
+        grid-row:1ft;
+        gap: 0px;
+        margin: 6em;
+        padding: 1em;
+        padding-top: 0em;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+    }
+
+    /*.spotify {
+        max-width: 100%;
+        height: 320;
+        <--- Virker ikke?
+    }
+    */
+
+    #shows_home_tab {
+        background-color: #292929;
+        display: grid;
+        grid-column: 1fr,;
+        grid-row:1ft;
+        gap: 0px;
+        margin: 6em;
+        padding: 1em;
+        padding-top: 0em;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 810px)
+
+{
+    
+}
 
 
 
