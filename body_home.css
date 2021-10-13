@@ -16,6 +16,21 @@
         font-size: 1.5em;
     }
 
+    .more_news {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+        
+    }
+
+    .more_shows {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+    }
+
     #navbar {
         overflow: hidden;
         background-color: #292929; 
@@ -144,6 +159,21 @@
         
     }
 
+    .more_news {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+        
+    }
+
+    .more_shows {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+    }
+
     #navbar {
         overflow: hidden;
         background-color: #292929; 
@@ -209,19 +239,6 @@
         
     }
     
-    #social_home_tab {
-        background-color: #292929;
-        display: grid;
-        grid-column: 1fr,;
-        grid-row:1ft;
-        gap: 0px;
-        margin: 6em;
-        padding: 1em;
-        padding-top: 0em;
-        border-width: 0.1em;
-        border-style: solid;
-        border-color:#848484;
-    }
 
     /*.spotify {
         max-width: 100%;
@@ -242,6 +259,12 @@
         border-width: 0.1em;
         border-style: solid;
         border-color:#848484;
+    }
+
+    .show_one_macken {
+
+        padding-left:4em;
+        padding-right:4em;
     }
 
 
@@ -276,6 +299,21 @@
         padding-right: 0em;
     }
 
+    .more_news {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+        
+    }
+
+    .more_shows {
+
+        color:#FFFFFF;
+        text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+        font-size: 1em;
+    }
+
     #navbar {
         overflow: hidden;
         background-color: #292929; 
@@ -341,19 +379,6 @@
         
     }
     
-    #social_home_tab {
-        background-color: #292929;
-        display: grid;
-        grid-column: 1fr,;
-        grid-row:1ft;
-        gap: 0px;
-        margin: 8em;
-        padding: 1em;
-        padding-top: 0em;
-        border-width: 0.1em;
-        border-style: solid;
-        border-color:#848484;
-    }
 
     /*.spotify {
         max-width: 100%;
@@ -368,13 +393,18 @@
         grid-column: 1fr,;
         grid-row:1ft;
         gap: 0px;
-        margin: 8em;
+        margin: 6em;
         padding: 1em;
         padding-top: 0em;
-        padding-bottom: 5em;
         border-width: 0.1em;
         border-style: solid;
         border-color:#848484;
+    }
+
+    .show_one_macken {
+
+        padding-left:9em;
+        padding-right:14em;
     }
 
 
