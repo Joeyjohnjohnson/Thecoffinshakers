@@ -10,22 +10,44 @@
     #navbar {
         
         overflow: hidden;
-        background-color:grey;
+        background-color: grey;
+        te
+        text-align: center;
+        font-size: xx-large;
+        
+        
+        
         
     }
 
+
 }
+
 
 .albums {
     max-width: 80vw;
     overflow: hidden;
     margin: 0 auto;
+ border: 20px outset grey; 
+ 
 }
 
 .albums__albumcover {
     max-width: 100%;
     width: 100%;
+ 
+
 }
 .albums__albumtitle {
-    color: red;
+    color: whitesmoke;
+    font-size: x-large;
+    text-align: center;
+
+    
+  
+    
+}
+body {
+    background-color: black;
+   
 }
