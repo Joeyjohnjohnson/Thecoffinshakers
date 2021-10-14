@@ -46,10 +46,11 @@
 
 
 .albums {
-    max-width: 80vw;
+    display: grid;
+    max-width: auto;
     overflow: hidden;
     margin: 0 auto;
- border: 20px outset grey; 
+    border: 0.5em outset grey; 
  
 }
 
@@ -60,9 +61,10 @@
 
 }
 .albums__albumtitle {
-    color: whitesmoke;
+    color: #FFFFFF;
     font-size: x-large;
     text-align: center;
+
 
     
   
