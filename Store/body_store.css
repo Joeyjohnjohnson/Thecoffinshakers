@@ -1,8 +1,9 @@
-Body {
+body {
+    background-image:url("Coffinshakers.jpg");
     background-color: black;
 }
 
-@media screen and (min-width:500px) 
+@media screen and (min-width: 540px) and (max-width: 760px) 
 {
    img {
        max-width: 100%;
