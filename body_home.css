@@ -146,7 +146,19 @@
         width: 100%;
         
     }
-    
+    #social_home_tab {
+        background-color: #292929;
+        display: grid;
+        grid-column: 1fr,;
+        grid-row:1ft;
+        gap: 0px;
+        margin: 6em;
+        padding: 1em;
+        padding-top: 0em;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+    }
 
     /*.spotify {
         max-width: 100%;
@@ -309,6 +321,18 @@
         width: 100%;
         
     }
+    #social_home_tab {
+        background-color: #292929;
+        display: grid;
+        grid-column: 1fr,;
+        grid-row:1ft;
+        gap: 0px;
+        margin: 6em;
+        padding: 1em;
+        padding-top: 0em;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
     
 
     /*.spotify {
@@ -317,7 +341,7 @@
         <--- Virker ikke?
     }
     */
-
+    }
     #shows_home_tab {
         background-color: #292929;
         display: grid;
@@ -344,7 +368,7 @@
 
 
 
-@media screen and (min-width: 910px)
+@media screen and (min-width: 900px)
 
 
 {
@@ -374,6 +398,9 @@
         border-width: 0.1em;
         border-style: solid;
         border-color:#848484;
+        padding: 1em;
+        margin-right: 6em;
+        margin-left: 6em;
           
     }
 
@@ -382,6 +409,8 @@
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
         grid-template-rows:1fr;
+        padding:5em;
+        padding-top: 1em;
     }
 
 
@@ -410,6 +439,14 @@ a:visited {
     font-size: 1.5em;
 }
 
+.tab_names_social {
+
+    color:#FFFFFF;
+    text-shadow:-1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    font-size: 1.5em;
+    
+}
+
 .more_news {
 
     color:#FFFFFF;
@@ -425,18 +462,7 @@ a:visited {
     font-size: 1em;
 }
 
-#navbar {
-    overflow: hidden;
-    background-color: #292929; 
-    text-align:center;
-    word-spacing:3em;
-    color:#FFFFFF;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color:#848484;
-    font-size: large;
-      
-}
+
 
 
 
@@ -447,7 +473,6 @@ a:visited {
     grid-row: 1;
     margin: 1em;
     gap: 0px;
-    margin: 61m;
     padding: 1em;
     padding-top: 0em;
     border-width: 0.1em;
@@ -458,42 +483,6 @@ a:visited {
     
 }
 
-.news_new_merch {
-
-    padding-left:4em;
-    padding-right:4em;
-}
-
-.news_info_festival {
-    padding-left:4em;
-    padding-right:4em;
-
-}
-
-.news_breaking_news {
-
-    padding-left:4em;
-    padding-right:4em;
-}
-
-.news_new_merch_picturetext {
-    
-        
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
-     
-
-
-.line_news {
-
-    border-bottom: 2px solid;
-    width: 100%;
-    
-}
-
 #social_home_tab {
     background-color: #292929;
     display: grid;
@@ -501,7 +490,6 @@ a:visited {
     grid-row: 1;
     margin: 1em;
     gap: 0px;
-    margin: 1em;
     padding: 1em;
     padding-top: 0em;
     border-width: 0.1em;
@@ -516,13 +504,58 @@ a:visited {
     grid-row: 1;
     margin: 1em;
     gap: 0px;
-    margin: 1em;
     padding: 1em;
     padding-top: 0em;
     border-width: 0.1em;
     border-style: solid;
     border-color:#848484;
 }
+
+.news_new_merch {
+
+    padding-left:4em;
+    padding-right:4em;
+    color:#FFFFFF;
+}
+
+.news_info_festival {
+    padding-left:4em;
+    padding-right:4em;
+    color:#FFFFFF;
+}
+
+.news_breaking_news {
+
+    padding-left:4em;
+    padding-right:4em;
+    color:#FFFFFF;
+}
+
+.news_new_merch_picturetext {
+    
+        
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 4em;
+        padding-right: 4em;
+        
+    }
+     
+
+
+.line_news {
+
+    border-bottom: 2px solid;
+    width: 100%;
+    
+}
+.shows_news_tab {
+
+    color:#FFFFFF;
+    padding-left: 2em;
+
+}
+
 
 
 
