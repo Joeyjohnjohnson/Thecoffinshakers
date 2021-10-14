@@ -33,12 +33,26 @@ a:visited {
     border-style: solid;
     border-color:#848484;
       
-}
-
-   .site_under_construction {
-
-    color:white;
-    font-size: large;
    }
 
+
+    
+
+#members {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    color: #FFFFFF;
+    font-size: large;
+    text-align: center;
+    
+    
+
+   
+
+
+
+   
+    
+}
 } 
