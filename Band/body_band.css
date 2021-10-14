@@ -1,3 +1,8 @@
+body {
+    background-image:url("");
+    background-color: black;
+}
+
 @media screen and (min-width:500px) 
 {
    img {
@@ -8,8 +13,14 @@
    
    #navbar {
    
-       overflow: hidden;
-       background-color: grey;
+    overflow: hidden;
+    background-color: #292929; 
+    text-align:center;
+    word-spacing:3em;
+    color:#FFFFFF;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color:#848484;
        
    }
 

@@ -412,10 +412,33 @@
 
 
 
-@media screen and (min-width: 810px)
+@media screen and (min-width: 910px)
+
 
 {
-    
+    .header_picture {
+        max-width: 100%;
+        height: auto; 
+    }
+
+    #navbar {
+        overflow: hidden;
+        background-color: #292929; 
+        text-align:center;
+        word-spacing:10em;
+        color:#FFFFFF;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+          
+    }
+
+
+
+
+
+
+
 }
 
 
@@ -427,26 +450,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
