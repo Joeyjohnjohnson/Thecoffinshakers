@@ -25,5 +25,22 @@
    Body {
        background-color: black;
    }
+       .Storecovers {
+        max-width: 80vw;
+        overflow: hidden;
+        margin: 0 auto;
+     border: 20px solid grey; 
+
+     max-width: 100%;
+    width: 100%;
+       }
+
+    .Itemtitel {
+        color: whitesmoke;
+        font-size: x-large;
+        text-align: center;
+     
+    }
+   
 
 } 
