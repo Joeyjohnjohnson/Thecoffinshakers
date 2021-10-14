@@ -10,12 +10,29 @@
     #navbar {
         
         overflow: hidden;
-        background-color: grey;
-        text-align: center;
-        font-size: xx-large;
+        background-color: #292929; 
+        text-align:center;
+        word-spacing:3em;
+        color:#FFFFFF;
+        border-width: 0.1em;
+        border-style: solid;
+        border-color:#848484;
+        font-size: large;
         
         
         
+        
+    }
+    
+    a:link {
+
+        color:white;
+        
+    }
+
+    a:visited {
+
+        color:white;
         
     }
 
