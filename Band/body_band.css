@@ -24,4 +24,10 @@ body {
        
    }
 
+   .site_under_construction {
+
+    color:white;
+    font-size: large;
+   }
+
 } 
