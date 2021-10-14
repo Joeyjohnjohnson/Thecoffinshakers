@@ -102,8 +102,8 @@ a:visited {
     .header_picture {
         max-width: 100%;
         height: auto;
-        padding-left:6em;
-        padding-right:6em; 
+        padding-left: 12em;
+         
     }
 
     a:link {
@@ -122,14 +122,15 @@ a:visited {
         overflow: hidden;
         background-color: #292929; 
         text-align:center;
-        word-spacing:10em;
+        word-spacing:16em;
         color:#FFFFFF;
         border-width: 0.1em;
         border-style: solid;
         border-color:#848484;
         padding: 1em;
-        margin-right: 6em;
-        margin-left: 6em;
+        margin-right: 13em;
+        margin-left: 13em;
+        font-size: 1.3em;
 
 }
 }
